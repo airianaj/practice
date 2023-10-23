@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/top', 'TopController@top')->name('top');
+
+Route::get('/helloworld', 'HelloworldController@helloworld');
